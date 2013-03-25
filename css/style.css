@@ -1,0 +1,275 @@
+/*
+ * HTML5 Boilerplate
+ *
+ * What follows is the result of much research on cross-browser styling.
+ * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
+ * Kroc Camen, and the H5BP dev community and team.
+ */
+
+/* ==========================================================================
+   Base styles: opinionated defaults
+   ========================================================================== */
+
+body {
+    line-height: 1.4;
+}
+
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px dashed #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+img {
+    vertical-align: middle;
+}
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+body{
+    font: 400 14px/140% 'Open Sans',Arial,Helvetica,Geneva,sans-serif;
+    color: #333;
+}
+#title h1{
+    font-family: 'Rufina', Georgia, sans-serif;
+    font-weight: bold;
+    font-size: 36px;
+}
+#top-bar{
+    height: 3px;
+    background-color: #000;
+}
+.wrapper{
+    width: 940px;
+    margin-right: auto;
+    margin-left: auto;
+    top: 0;
+}
+.sidebar{
+    width: 30%;
+    float: left;
+}
+.content{
+    width: 70%;
+    float: right;
+}
+#logo{
+    margin-top: 50px;
+}
+#title{
+    margin-top: 170px;
+    margin-bottom: 30px;
+}
+ul#links, ul#social{
+    padding-left: 0;
+}
+#external-links{
+    margin-top: 260px;
+}
+ul#links li{
+    list-style-type: none;
+    list-style-position: outside;
+    margin-bottom: 3px;
+}
+ul#links li:hover{
+}
+ul#links li a{
+    text-decoration: none;
+    padding-left: 9px;
+    border-left: 4px solid #bbb;
+    font-size: 15px;
+    color: #666;
+}
+ul#links li a:hover{
+    color: #000;
+    border-color: #000;
+}
+#social-share{
+    margin-bottom: 50px;
+    margin-top: 30px;
+    display: block;
+}
+ul#social li{
+    list-style-type: none;
+    list-style-position: outside;
+    margin-right: 20px;
+    position: relative;
+    display: inline-block;
+}
+
+#social-icon-1, #social-icon-2, #social-icon-3, #social-icon-4, #social-icon-5{
+    display: block;
+    height: 29px;
+    width: 29px;
+    text-indent: -999999px;
+}
+#social-icon-1{
+    background: url(../img/social/facebook.png) bottom;
+}
+#social-icon-2{
+    background: url(../img/social/twitter.png) bottom;
+}
+#social-icon-3{
+    background: url(../img/social/identica.png) bottom;
+}
+#social-icon-4{
+    background: url(../img/social/googleplus.png) bottom;
+}
+#social-icon-5{
+    background: url(../img/social/diaspora.png) bottom;
+}
+#social-icon-1:hover, #social-icon-2:hover, #social-icon-3:hover, #social-icon-4:hover, #social-icon-5:hover{
+    background-position: 0 0;
+}
+#main-content{
+    height: 430px;
+}
+footer{
+    display: block;
+    margin-top: 300px;
+    text-align: center;
+    margin-bottom: 30px
+}
+#copyright{
+    margin-top: 20px;
+}
+
+
+@media (max-width: 767px){
+    .wrapper{
+        width: 60%;
+    }
+    .sidebar{
+        width: 100%;
+        float: none;
+    }
+    .content{
+        width: 100%;
+        float: none;
+    }
+    #title{
+        margin-top: 30px;
+    }
+    #title h1{
+        font-size: 24px;
+        line-height: 32px;
+    }
+    #external-links{
+        margin-top: 48px;
+    }
+    ul#social li{
+        margin-right: 5%;
+        padding-bottom: 10px;
+    }
+    #main-content{
+        height: auto;
+    }
+    footer{    
+        margin-top: 30px;
+    }
+
+}
+@media (min-width: 768px) and (max-width: 979px){
+    .wrapper{
+        width: 630px;
+    }
+    .content{
+        width: 66%;
+    }
+    #title h1{
+        font-size: 24px;
+    }
+    #external-links{
+        margin-top: 485px;
+    }
+    ul#links li a{
+        font-size: 12px;
+    }
+    ul#social li{
+        margin-right: 5px;
+    }
+    #main-content{
+        height: 650px;
+    }
+}
+@media (min-width: 980px) and (max-width: 1200px){
+    .wrapper{
+        width: 780px;
+    }
+    #title h1{
+        font-size: 32px;
+    }
+    #external-links{
+        margin-top: 370px;
+    }
+    ul#links li a{
+        font-size: 14px;
+    }
+    ul#social li{
+        list-style-type: none;
+        list-style-position: outside;
+        margin-right: 12px;
+        position: relative;
+        display: inline-block;
+    }
+    #main-content{
+        height: 520px;
+    }
+
+}
+
+
+
+
+/* ==========================================================================
+   Print styles.
+   Inlined to avoid required HTTP connection: h5bp.com/r
+   ========================================================================== */
+
+@media print {
+    * {
+        background: transparent !important;
+        color: #000 !important; /* Black prints faster: h5bp.com/s */
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    img {
+        page-break-inside: avoid;
+    }
+
+    img {
+        max-width: 100% !important;
+    }
+
+    @page {
+        margin: 0.5cm;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}
