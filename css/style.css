@@ -59,11 +59,14 @@ body{
     width: 70%;
     float: right;
 }
+.content p {
+    line-height: 1.7;
+}
 #logo{
     margin-top: 50px;
 }
 #title{
-    margin-top: 170px;
+    margin-top: 100px;
     margin-bottom: 30px;
 }
 ul#links, ul#social{
