@@ -146,8 +146,18 @@ footer{
     text-align: center;
     margin-bottom: 30px
 }
-#copyright{
+#copyleft {
     margin-top: 20px;
+    color: #666;
+}
+#copyleft span {
+    font-weight: bold;
+    display: inline-block;
+    -webkit-transform: scaleX(-1);
+    -moz-transform: scaleX(-1);
+    -ms-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    transform: scaleX(-1);
 }
 
 
