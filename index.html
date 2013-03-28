@@ -17,6 +17,18 @@
         <link rel="shortcut icon" type="image/png" href="favicon.png" />
     </head>
     <body>
+        <div id="homepage">
+        </div>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script src="js/jquery.i18n.min.js"></script>
+        <script src="js/underscore-min.js"></script>
+        <script src="js/script.js"></script>
+        <link rel="localization" hreflang="en" href="i18n/smc-en.json" type="application/l10n+json"/>
+        <link rel="localization" hreflang="ml" href="i18n/smc-ml.json" type="application/l10n+json"/>
+    </body>
+
+
+    <script id="template-homepage" type="text/template">
         <div id="top-bar">
         </div>
         <div class="wrapper" id="main-content">
@@ -26,6 +38,33 @@
                 </div>
                 <div id="external-links">
                     <ul id="links">
+                        <li>
+                            <a href="http://wiki.smc.org.in/"><%= $.i18n('menu-wiki') %></a>
+                        </li>
+                        <li>
+                            <a href="http://silpa.org.in/" target="_blank"><%= $.i18n('menu-silpa') %></a>
+                        </li>
+                        <li>
+                            <a href="http://dhvani.sourceforge.net/" target="_blank"><%= $.i18n('menu-dhvani') %></a>
+                        </li>
+                        <li>
+                            <a href="http://www.malayalagrandham.com/" target="_blank"><%= $.i18n('menu-grandhavivaram') %></a>
+                        </li>
+                        <li>
+                            <a href="https://savannah.nongnu.org/projects/smc/" target="_blank"><%= $.i18n('menu-savannah') %></a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/smc" target="_blank"><%= $.i18n('menu-github') %></a>
+                        </li>
+                        <li>
+                            <a href="http://lists.smc.org.in/listinfo.cgi/discuss-smc.org.in" target="_blank"><%= $.i18n('menu-list') %></a>
+                        </li>
+                        <li>
+                            <a href="http://webchat.freenode.net/?randomnick=1&channels=smc-project" target="_blank" id="menu-irc">IRC: #smc-project on freenode</a>
+                        </li>
+                        <li>
+                            <a href="http://planet.smc.org.in/" target="_blank"><%= $.i18n('menu-planet') %></a>
+                        </li>
                     </ul>
                 </div>
                 <div id="social-share">
@@ -39,66 +78,17 @@
                 </div>
             </div>
             <div class="content">
+                <div id="title">
+                    <h1 id="title"><%= $.i18n('title') %></h1>
+                </div>
+                <div id="about"><%= $.i18n('about') %></div>
             </div>
         </div>
         <footer>
+            <div class="wrapper">
+                <hr/>
+                <div id="copyleft"><%= $.i18n('copyleft-msg', '<span>&copy;</span>') %></div>
+            </div>
         </footer>
-        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-        <script src="js/jquery.i18n.min.js"></script>
-        <script src="js/underscore-min.js"></script>
-        <script src="js/script.js"></script>
-        <link rel="localization" hreflang="en" href="i18n/smc-en.json" type="application/l10n+json"/>
-        <link rel="localization" hreflang="ml" href="i18n/smc-ml.json" type="application/l10n+json"/>
-    </body>
-
-
-    <script id="template-menu" type="text/template">
-        <li>
-            <a href="http://wiki.smc.org.in/"><%= $.i18n('menu-wiki') %></a>
-        </li>
-        <li>
-            <a href="http://silpa.org.in/" target="_blank"><%= $.i18n('menu-silpa') %></a>
-        </li>
-        <li>
-            <a href="http://dhvani.sourceforge.net/" target="_blank"><%= $.i18n('menu-dhvani') %></a>
-        </li>
-        <li>
-            <a href="http://www.malayalagrandham.com/" target="_blank"><%= $.i18n('menu-grandhavivaram') %></a>
-        </li>
-        <li>
-            <a href="https://savannah.nongnu.org/projects/smc/" target="_blank"><%= $.i18n('menu-savannah') %></a>
-        </li>
-        <li>
-            <a href="https://github.com/smc" target="_blank"><%= $.i18n('menu-github') %></a>
-        </li>
-        <li>
-            <a href="http://lists.smc.org.in/listinfo.cgi/discuss-smc.org.in" target="_blank"><%= $.i18n('menu-list') %></a>
-        </li>
-        <li>
-            <a href="http://webchat.freenode.net/?randomnick=1&channels=smc-project" target="_blank" id="menu-irc">IRC: #smc-project on freenode</a>
-        </li>
-        <li>
-            <a href="http://planet.smc.org.in/" target="_blank"><%= $.i18n('menu-planet') %></a>
-        </li>
-    </script>
-    <script id="template-content" type="text/template">
-        <div id="title">
-            <h1 id="title"><%= $.i18n('title') %></h1>
-        </div>
-        <div id="about">
-            <p>Swathanthra Malayalam Computing (SMC) is a free software collective engaged in development, localization, standardization and popularization of various Free and Open Source Softwares in <a href="http://en.wikipedia.org/wiki/Malayalam" target="_blank">Malayalam</a> language. "എന്റെ കമ്പ്യൂട്ടറിനു് എന്റെ ഭാഷ" is the slogan of the organization, which translates to "My language for/on My Computer".</p>
-
-            <p>SMC has been active since October 2002 and has been working to provide Malayalam language tools that work on all layers of computing including and not limited to rendering fixes, fonts, input mechanisms, translations (localization), text-to-speech engines, dictionaries, spell checkers and other indic script based language computing specific tools across operating systems. We are the upstream for Malayalam fonts and tools for popular GNU/Linux based operating systems such as Fedora and Debian. We also maintain localizations for popular Free Software Desktops (GNOME/KDE), popular applications such as Firefox and Libre Office.</p>
-
-            <p>SMC is perhaps the largest language technology developer community in India and collaborates very closely with government and industry, and serves as an advisory to govermental/semi-govermental organizations that determine the future of Malayalam language on computing devices. We are not just developers though, we also have linguists, journalists, Wikipedians, writers and all sorts of language users among us.</p>
-
-            <p>SMC also works on developing accessibility support for indic languages and  maintains Dhvani TTS which supports 11 languages  . Over the years, SMC has evolved to accommodate developers focused on Indic script based  languages and now provides a generic web based Indic language computation framework called <a href="http://silpa.org.in" target="_blank">SILPA</a>.</p>
-        </div>
-    </script>
-    <script id="template-footer" type="text/template">
-        <div class="wrapper">
-            <hr/>
-            <div id="copyleft"><span>&copy;</span> <%= $.i18n('copyleft-msg') %></div>
-        </div>
     </script>
 </html>

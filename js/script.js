@@ -1,8 +1,7 @@
 $(document).ready(function(){
     'use strict';
+    $.i18n.debug = true;
     var i18n = $.i18n();
 
-    $("#links").html(_.template($('#template-menu').html()));
-    $(".content").html(_.template($('#template-content').html()));
-    $("footer").html(_.template($('#template-footer').html()));
+    $("#homepage").html(_.template($('#template-homepage').html()));
 } );
