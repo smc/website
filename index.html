@@ -17,6 +17,14 @@
         <link rel="shortcut icon" type="image/png" href="favicon.png" />
     </head>
     <body>
+        <div id="top-bar">
+        </div>
+        <div class="wrapper">
+            <select class="language">
+                <option value="en">English</option>
+                <option value="ml">Malayalam</option>
+            </select>
+        </div>
         <div id="homepage">
         </div>
         <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
@@ -29,8 +37,6 @@
 
 
     <script id="template-homepage" type="text/template">
-        <div id="top-bar">
-        </div>
         <div class="wrapper" id="main-content">
             <div class="sidebar">
                 <div id="logo">
@@ -78,10 +84,6 @@
                 </div>
             </div>
             <div class="content">
-                <select class="language">
-                    <option value="en">English</option>
-                    <option value="ml">Malayalam</option>
-                </select>
                 <div id="title">
                     <h1 id="title"><%= $.i18n('title') %></h1>
                 </div>

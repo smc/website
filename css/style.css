@@ -77,6 +77,9 @@ a:hover {
     margin-bottom: 30px;
 }
 .language {
+    display: block;
+    width: 100px;
+    margin: 0;
     float: right;
 }
 ul#links, ul#social{
@@ -167,6 +170,10 @@ footer{
 @media (max-width: 767px){
     .wrapper{
         width: 60%;
+    }
+    .language {
+        float: none;
+        margin: 0 auto;
     }
     .sidebar{
         width: 100%;
