@@ -58,6 +58,8 @@ body{
 .content{
     width: 70%;
     float: right;
+    text-align:justify;
+    text-justify:inter-word;
 }
 .content p {
     line-height: 1.7;
