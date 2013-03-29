@@ -8,7 +8,7 @@ $(document).ready(function(){
         i18n.locale = language;
         $("#homepage").html(_.template($('#template-homepage').html()));
         cls.on('click', loadpage);
-        this.unbind("click");
+        $(this).unbind("click");
         }
     loadpage();
 } );
