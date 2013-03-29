@@ -3,11 +3,12 @@ $(document).ready(function(){
     var i18n = $.i18n();
 
     function loadpage() {
-        var id = $('.language'),
-            language = $('option:selected', id).val();
+        var cls = $('.language'),
+            language = ($(this).attr("id"))?$(this).attr("id"):"en";
         i18n.locale = language;
         $("#homepage").html(_.template($('#template-homepage').html()));
-        id.on('change', loadpage);
-    }
+        cls.on('click', loadpage);
+        this.unbind("click");
+        }
     loadpage();
 } );

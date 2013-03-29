@@ -68,6 +68,7 @@ a {
 }
 a:hover {
   text-decoration: underline;
+  cursor:pointer;
 }
 #logo{
     margin-top: 50px;
@@ -76,11 +77,12 @@ a:hover {
     margin-top: 100px;
     margin-bottom: 30px;
 }
-.language {
+.lanSel {
     display: block;
     width: 100px;
     margin: 0;
     float: right;
+    font-weight:bold;
 }
 ul#links, ul#social{
     padding-left: 0;
