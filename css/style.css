@@ -43,7 +43,7 @@ body{
 }
 #top-bar{
     height: 3px;
-    background-color: #000;
+    background-color: #222;
 }
 .wrapper{
     width: 940px;
@@ -77,13 +77,36 @@ a:hover {
     margin-top: 100px;
     margin-bottom: 30px;
 }
-.lanSel {
-    display: block;
-    width: 100px;
+.lang-selector {
     margin: 0;
     float: right;
-    font-weight:bold;
+    list-style: none;
+    padding: 0;
+    width: 150px;
+    height: 22px;
+    text-align: center;
+    background-color: #222;
+    -webkit-border-bottom-right-radius: 5px;
+    -webkit-border-bottom-left-radius: 5px;
+    -moz-border-radius-bottomright: 5px;
+    -moz-border-radius-bottomleft: 5px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
 }
+.lang-selector li {
+    display: inline-block;
+}
+.lang-selector a, .lang-selector li {
+    color: #eee;
+}
+.lang-selector a:hover {
+    color: #eee;
+    text-decoration: none;
+}
+.lang-selector span {
+    margin: 0 2px;
+}
+
 ul#links, ul#social{
     padding-left: 0;
 }
@@ -173,9 +196,9 @@ footer{
     .wrapper{
         width: 60%;
     }
-    .language {
-        float: none;
+    .lang-selector {
         margin: 0 auto;
+        float: none;
     }
     .sidebar{
         width: 100%;
