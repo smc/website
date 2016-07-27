@@ -3,7 +3,7 @@ $(document).ready(function(){
 
     function loadpage() {
         var obj = $(this),
-            language = $(this).data("language") || "en";
+        language = $(this).data("language") || navigator.language || "en";
         i18n.locale = language;
         $("#homepage").html(_.template($('#template-homepage').html()));
     }
