@@ -1,0 +1,33 @@
+// main: main.less
+@import "flex.less";
+@import "mixins.less";
+@import "variables.less";
+
+.suruma {
+	.suruma;
+
+	.item1 {
+		background: #232526;
+		/* fallback for old browsers */
+		background: -webkit-linear-gradient(to left, #232526 , #414345);
+		/* Chrome 10-25, Safari 5.1-6 */
+		background: linear-gradient(to left, #232526 , #414345);
+		/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+		min-height: 80vh;
+		width: 100%;
+
+		article {
+			margin-top: 2em;
+			p {
+				padding-top: 2em;
+				color: @white;
+				width: 50%;
+				margin: auto;
+				text-align: center;
+				font-size: 1.2em;
+				line-height: 1.4em;
+			}
+		}
+	}
+}

@@ -1,0 +1,72 @@
+// main: main.less
+@import "flex.less";
+@import "mixins.less";
+@import "variables.less";
+
+.meera {
+	.meera;
+	min-height: 60vh;
+	h2 {
+		font-size: 3em;
+		color: @alizarin;
+		font-weight: normal;
+	}
+
+	.item1 {
+		width: 100%;
+		text-align: left;
+	}
+
+	.item2 {
+		background: #457fca;
+		/* fallback for old browsers */
+		background: -webkit-linear-gradient(to left, #457fca , #5691c8);
+		/* Chrome 10-25, Safari 5.1-6 */
+		background: linear-gradient(to left, #457fca , #5691c8);
+		/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+		min-height: 90vh;
+		width: 100%;
+
+		p {
+			color: @white;
+			text-shadow: 0 2px 3px #555;
+			font-size: 4em;
+			text-align: center;
+			line-height: 1.5em;
+		}
+	}
+
+	article {
+		width: 80%;
+		margin: 10% auto;
+		-webkit-columns: 2 200px;
+		-moz-columns: 2 200px;
+		columns: 2 200px;
+		-webkit-column-gap: 4em;
+		-moz-column-gap: 4em;
+		column-gap: 4em;
+
+		p {
+			font-size: 1.2em;
+			line-height: 1.5em;
+			color: @dark-gray;
+			text-align: justify;
+		}
+	}
+}
+@media (max-width: 48em) {
+	.meera {
+		article {
+			-webkit-column-count: 1;
+			-moz-column-count: 1;
+			column-count: 1;
+		}
+
+		.item2 {
+			p {
+				font-size: 3em;
+			}
+		}
+	}
+}

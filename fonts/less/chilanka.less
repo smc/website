@@ -1,0 +1,50 @@
+// main: main.less
+@import "flex.less";
+@import "mixins.less";
+@import "variables.less";
+
+.chilanka {
+	.chilanka;
+
+	.showcase-item {
+		width: 100%;
+	}
+
+	h2 {
+		font-size: 3em;
+		color: @alizarin;
+	}
+
+	article {
+		width: 60%;
+		margin: 2em auto;
+		-webkit-transform: rotate(-4deg);
+		transform: rotate(-4deg);
+		text-shadow: 2px 2px 3px rgba(255,255,255,0.6);
+		box-shadow: 0 0 5px rgba(0, 0, 0, 0.2), inset 0 0 50px rgba(0, 0, 0, 0.1);
+		background: -webkit-gradient( linear, left top, left bottom, from(#81cbbc), color-stop(2%, #fcf59b) );
+		background: -moz-repeating-linear-gradient( top, #fcf59b, #fcf59b 38px, #81cbbc 40px );
+		background: repeating-linear-gradient( top, #fcf59b, #fcf59b 38px, #81cbbc 40px );
+		-webkit-background-size: 100% 40px;
+
+		p {
+			font-size: 1.2em;
+			line-height: 1.5em;
+			color: @dark-gray;
+			text-align: justify;
+			padding: 20px 10%;
+		}
+	}
+}
+@media (max-width: 48em) {
+	.chilanka {
+		article {
+			width: 100%;
+			-webkit-transform: rotate(-1deg);
+			transform: rotate(-1deg);
+			p {
+				padding: 20px 10px;
+			}
+		}
+	}
+}

@@ -1,0 +1,31 @@
+// main: main.less
+@import "flex.less";
+@import "mixins.less";
+@import "variables.less";
+
+.karumbi {
+	.karumbi;
+
+	h2 {
+		font-size: 3em;
+		color: @alizarin;
+	}
+	.showcase-item {
+		background: -moz-radial-gradient(50% 50%, farthest-side, #FF9D46, #F5EFC6);
+		background: -webkit-gradient(radial, 50% 50%, 0, 50% 50%, 350, from(#FF9D46), to(#F5EFC6));
+		width: 100%;
+	}
+
+	article {
+		width: 80%;
+		margin: auto;
+		p {
+			text-shadow: 2px 2px 3px rgba(255,255,255,0.6);
+			font-size: 2em;
+			line-height: 1.2em;
+			color: @dark-gray;
+			text-align: center;
+		}
+	}
+
+}

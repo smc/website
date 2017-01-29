@@ -1,0 +1,58 @@
+// main: main.less
+@import "flex.less";
+@import "mixins.less";
+@import "variables.less";
+.dyuthi {
+    .dyuthi;
+    .item1 {
+        background: #3CA55C;
+        /* fallback for old browsers */
+        background: -webkit-linear-gradient(to left, #3CA55C , #B5AC49);
+        /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to left, #3CA55C , #B5AC49);
+        /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        min-height: 80vh;
+        width: 100%;
+        h1 {
+            font-size: 3em;
+            text-align: center;
+            color: @white;
+            font-weight: normal;
+        }
+		p {
+            text-align: center;
+            font-size: 2em;
+			color: @white;
+        }
+    }
+    .item2 {
+        background: #232526;
+        /* fallback for old browsers */
+        background: -webkit-linear-gradient(to left, #232526 , #414345);
+        /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to left, #232526 , #414345);
+        /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        min-height: 80vh;
+        width: 100%;
+        h1 {
+            font-size: 3em;
+            text-align: center;
+            color: @white;
+            font-weight: normal;
+        }
+        p {
+            text-align: center;
+            font-size: 2em;
+			color: @white;
+        }
+    }
+}
+@media (max-width: 48em) {
+    .dyuthi {
+        h1 {
+            margin-left: 0;
+            margin-right: 0;
+            font-size: 3em;
+        }
+    }
+}

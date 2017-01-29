@@ -1,0 +1,90 @@
+// main: main.less
+@import "flex.less";
+@import "mixins.less";
+@import "variables.less";
+
+.raghumalayalam {
+	.raghumalayalam;
+
+	.item1 {
+		padding: 40px 20px;
+		h1 {
+			font-size: 3em;
+			text-align: center;
+			color: @white;
+			font-weight: normal;
+			margin: 0.4em 0;
+		}
+		background: #FF512F;
+		/* fallback for old browsers */
+		background: -webkit-linear-gradient(to left, #FF512F , #DD2476);
+		/* Chrome 10-25, Safari 5.1-6 */
+		background: linear-gradient(to left, #FF512F , #DD2476);
+		/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+		min-height: 80vh;
+		width: 100%;
+
+		p {
+			color: @white;
+			width: 50%;
+			margin: auto;
+			text-align: center;
+		}
+	}
+
+	.item2 {
+		width: 100%;
+		margin: auto;
+		padding: 40px 20px;
+		article {
+			width: 80%;
+			margin: auto;
+			-webkit-columns: 3 200px;
+			-moz-columns: 3 200px;
+			columns: 3 200px;
+			-webkit-column-gap: 4em;
+			-moz-column-gap: 4em;
+			column-gap: 4em;
+			aside {
+				color: @concrete;
+			}
+			h1 {
+				font-size: 2em;
+				color: @alizarin;
+				margin: 0 1em;
+			}
+
+			h2 {
+				font-size: 1.4em;
+				color: @alizarin;
+			}
+
+			p {
+				font-size: 1em;
+				line-height: 1.5em;
+				color: @dark-gray;
+				text-align: justify;
+			}
+		}
+	}
+}
+@media (max-width: 48em) {
+	.raghumalayalamsans {
+		.item1{
+			h1 {
+				margin-left: 0;
+				margin-right: 0;
+					font-size: 1.8em;
+			}
+		}
+		.item2 {
+			article {
+				-webkit-column-count: 1;
+				-moz-column-count: 1;
+				column-count: 1;
+			}
+		}
+	}
+
+}
