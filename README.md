@@ -1,4 +1,4 @@
 website
 =======
 
-http://smc.org.in website 
+smc.org.in website
