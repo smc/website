@@ -4,7 +4,7 @@
 	font-family: 'Meera';
 	font-style: normal;
 	font-weight: 400;
-	src: url(https://smc.org.in/downloads/fonts/meera/Meera.woff2?v=7.0) format('woff2'), url(https://smc.org.in/downloads/fonts/meera/Meera.woff?v=7.0) format('woff'), url(https://smc.org.in/downloads/fonts/meera/Meera.ttf?v=7.0) format('truetype');
+	src: url(//smc.org.in/downloads/fonts/meera/Meera.woff2?v=7.0) format('woff2'), url(//smc.org.in/downloads/fonts/meera/Meera.woff?v=7.0) format('woff'), url(//smc.org.in/downloads/fonts/meera/Meera.ttf?v=7.0) format('truetype');
 	unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+0D01-0D7F, U+200C-U+200D, U+25CC;
 }
 
@@ -15,7 +15,7 @@
 	font-family: 'Rachana';
 	font-style: normal;
 	font-weight: 400;
-	src: url(https://smc.org.in/downloads/fonts/rachana/Rachana-Regular.woff2?v=7.0) format('woff2'), url(https://smc.org.in/downloads/fonts/rachana/Rachana-Regular.woff?v=7.0) format('woff'), url(https://smc.org.in/downloads/fonts/rachana/Rachana-Regular.ttf?v=7.0) format('truetype');
+	src: url(//smc.org.in/downloads/fonts/rachana/Rachana-Regular.woff2?v=7.0) format('woff2'), url(//smc.org.in/downloads/fonts/rachana/Rachana-Regular.woff?v=7.0) format('woff'), url(//smc.org.in/downloads/fonts/rachana/Rachana-Regular.ttf?v=7.0) format('truetype');
 	unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+0D01-0D7F, U+200C-U+200D, U+25CC;
 }
 
@@ -26,7 +26,7 @@
 	font-family: 'Rachana';
 	font-style: normal;
 	font-weight: 700;
-	src: url(https://smc.org.in/downloads/fonts/rachana/Rachana-Bold.woff2?v=2.0) format('woff2'), url(https://smc.org.in/downloads/fonts/rachana/Rachana-Bold.woff?v=2.0) format('woff'), url(https://smc.org.in/downloads/fonts/rachana/Rachana-Bold.ttf?v=2.0) format('truetype');
+	src: url(//smc.org.in/downloads/fonts/rachana/Rachana-Bold.woff2?v=2.0) format('woff2'), url(//smc.org.in/downloads/fonts/rachana/Rachana-Bold.woff?v=2.0) format('woff'), url(//smc.org.in/downloads/fonts/rachana/Rachana-Bold.ttf?v=2.0) format('truetype');
 	unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+0D01-0D7F, U+200C-U+200D, U+25CC;
 }
 
@@ -38,7 +38,7 @@
 	font-family: 'Manjari';
 	font-style: normal;
 	font-weight: 400;
-	src: url(https://smc.org.in/downloads/fonts/manjari/Manjari-Regular.woff2?v=1.0) format('woff2'), url(https://smc.org.in/downloads/fonts/manjari/Manjari-Regular.woff?v=1.0) format('woff'), url(https://smc.org.in/downloads/fonts/manjari/Manjari-Regular.ttf?v=1.0) format('truetype');
+	src: url(//smc.org.in/downloads/fonts/manjari/Manjari-Regular.woff2?v=1.0) format('woff2'), url(//smc.org.in/downloads/fonts/manjari/Manjari-Regular.woff?v=1.0) format('woff'), url(//smc.org.in/downloads/fonts/manjari/Manjari-Regular.ttf?v=1.0) format('truetype');
 	unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+0D01-0D7F, U+200C-U+200D, U+25CC;
 }
 
@@ -49,7 +49,7 @@
 	font-family: 'Manjari';
 	font-style: normal;
 	font-weight: 700;
-	src: url(https://smc.org.in/downloads/fonts/manjari/Manjari-Bold.woff2?v=1.0) format('woff2'), url(https://smc.org.in/downloads/fonts/manjari/Manjari-Bold.woff?v=1.0) format('woff'), url(https://smc.org.in/downloads/fonts/manjari/Manjari-Bold.ttf?v=1.0) format('truetype');
+	src: url(//smc.org.in/downloads/fonts/manjari/Manjari-Bold.woff2?v=1.0) format('woff2'), url(//smc.org.in/downloads/fonts/manjari/Manjari-Bold.woff?v=1.0) format('woff'), url(//smc.org.in/downloads/fonts/manjari/Manjari-Bold.ttf?v=1.0) format('truetype');
 	unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+0D01-0D7F, U+200C-U+200D, U+25CC;
 }
 
@@ -60,7 +60,7 @@
 	font-family: 'Manjari';
 	font-style: normal;
 	font-weight: 100;
-	src: url(https://smc.org.in/downloads/fonts/manjari/Manjari-Thin.woff2?v=1.0) format('woff2'), url(https://smc.org.in/downloads/fonts/manjari/Manjari-Thin.woff?v=1.0) format('woff'), url(https://smc.org.in/downloads/fonts/manjari/Manjari-Thin.ttf?v=1.0) format('truetype');
+	src: url(//smc.org.in/downloads/fonts/manjari/Manjari-Thin.woff2?v=1.0) format('woff2'), url(//smc.org.in/downloads/fonts/manjari/Manjari-Thin.woff?v=1.0) format('woff'), url(//smc.org.in/downloads/fonts/manjari/Manjari-Thin.ttf?v=1.0) format('truetype');
 	unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+0D01-0D7F, U+200C-U+200D, U+25CC;
 }
 
@@ -71,7 +71,7 @@
 	font-family: 'AnjaliOldLipi';
 	font-style: normal;
 	font-weight: 400;
-	src: url(https://smc.org.in/downloads/fonts/anjalioldlipi/AnjaliOldLipi.woff2?v=7.0) format('woff2'), url(https://smc.org.in/downloads/fonts/anjalioldlipi/AnjaliOldLipi.woff?v=7.0) format('woff'), url(https://smc.org.in/downloads/fonts/anjalioldlipi/AnjaliOldLipi.ttf?v=7.0) format('truetype');
+	src: url(//smc.org.in/downloads/fonts/anjalioldlipi/AnjaliOldLipi.woff2?v=7.0) format('woff2'), url(//smc.org.in/downloads/fonts/anjalioldlipi/AnjaliOldLipi.woff?v=7.0) format('woff'), url(//smc.org.in/downloads/fonts/anjalioldlipi/AnjaliOldLipi.ttf?v=7.0) format('truetype');
 	unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+0D01-0D7F, U+200C-U+200D, U+25CC;
 }
 
@@ -82,7 +82,7 @@
 	font-family: 'Dyuthi';
 	font-style: normal;
 	font-weight: 400;
-	src: url(https://smc.org.in/downloads/fonts/dyuthi/Dyuthi.woff2?v=2.0) format('woff2'), url(https://smc.org.in/downloads/fonts/dyuthi/Dyuthi.woff?v=2.0) format('woff'), url(https://smc.org.in/downloads/fonts/dyuthi/Dyuthi.ttf?v=2.0) format('truetype');
+	src: url(//smc.org.in/downloads/fonts/dyuthi/Dyuthi.woff2?v=2.0) format('woff2'), url(//smc.org.in/downloads/fonts/dyuthi/Dyuthi.woff?v=2.0) format('woff'), url(//smc.org.in/downloads/fonts/dyuthi/Dyuthi.ttf?v=2.0) format('truetype');
 	unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+0D01-0D7F, U+200C-U+200D, U+25CC;
 }
 
@@ -93,7 +93,7 @@
 	font-family: 'Chilanka';
 	font-style: normal;
 	font-weight: 400;
-	src: url(https://smc.org.in/downloads/fonts/chilanka/Chilanka-Regular.woff2?v=1.2.0) format('woff2'), url(https://smc.org.in/downloads/fonts/chilanka/Chilanka-Regular.woff?v=1.2.0) format('woff'), url(https://smc.org.in/downloads/fonts/chilanka/Chilanka-Regular.ttf?v=1.2.0) format('truetype');
+	src: url(//smc.org.in/downloads/fonts/chilanka/Chilanka-Regular.woff2?v=1.2.0) format('woff2'), url(//smc.org.in/downloads/fonts/chilanka/Chilanka-Regular.woff?v=1.2.0) format('woff'), url(//smc.org.in/downloads/fonts/chilanka/Chilanka-Regular.ttf?v=1.2.0) format('truetype');
 	unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+0D01-0D7F, U+200C-U+200D, U+25CC;
 }
 
@@ -104,7 +104,7 @@
 	font-family: 'RaghuMalayalam';
 	font-style: normal;
 	font-weight: 400;
-	src: url(https://smc.org.in/downloads/fonts/raghumalayalamsans/RaghuMalayalamSans-Regular.woff2?v=2.1.1) format('woff2'), url(https://smc.org.in/downloads/fonts/raghumalayalamsans/RaghuMalayalamSans-Regular.woff?v=2.1.1) format('woff'), url(https://smc.org.in/downloads/fonts/raghumalayalamsans/RaghuMalayalamSans-Regular.ttf?v=2.1.1) format('truetype');
+	src: url(//smc.org.in/downloads/fonts/raghumalayalamsans/RaghuMalayalamSans-Regular.woff2?v=2.1.1) format('woff2'), url(//smc.org.in/downloads/fonts/raghumalayalamsans/RaghuMalayalamSans-Regular.woff?v=2.1.1) format('woff'), url(//smc.org.in/downloads/fonts/raghumalayalamsans/RaghuMalayalamSans-Regular.ttf?v=2.1.1) format('truetype');
 	unicode-range: U+0000-02DC, U+0D01-0D7F, U+200C-U+200D, U+25CC;
 }
 
@@ -115,7 +115,7 @@
 	font-family: 'Suruma';
 	font-style: normal;
 	font-weight: 400;
-	src: url(https://smc.org.in/downloads/fonts/suruma/Suruma.woff2?v=1.0.0-beta) format('woff2'), url(https://smc.org.in/downloads/fonts/suruma/Suruma.woff?v=1.0.0-beta) format('woff'), url(https://smc.org.in/downloads/fonts/suruma/Suruma.ttf?v=1.0.0-beta) format('truetype');
+	src: url(//smc.org.in/downloads/fonts/suruma/Suruma.woff2?v=1.0.0-beta) format('woff2'), url(//smc.org.in/downloads/fonts/suruma/Suruma.woff?v=1.0.0-beta) format('woff'), url(//smc.org.in/downloads/fonts/suruma/Suruma.ttf?v=1.0.0-beta) format('truetype');
 	unicode-range: U+0D01-0D7F, U+200C-U+200D, U+25CC;
 }
 
@@ -126,7 +126,7 @@
 	font-family: 'Keraleeyam';
 	font-style: normal;
 	font-weight: 700;
-	src: url(https://smc.org.in/downloads/fonts/keraleeyam/Keraleeyam.woff2?v=2.0) format('woff2'), url(https://smc.org.in/downloads/fonts/keraleeyam/Keraleeyam.woff?v=2.0) format('woff'), url(https://smc.org.in/downloads/fonts/keraleeyam/Keraleeyam.ttf?v=2.0) format('truetype');
+	src: url(//smc.org.in/downloads/fonts/keraleeyam/Keraleeyam.woff2?v=2.0) format('woff2'), url(//smc.org.in/downloads/fonts/keraleeyam/Keraleeyam.woff?v=2.0) format('woff'), url(//smc.org.in/downloads/fonts/keraleeyam/Keraleeyam.ttf?v=2.0) format('truetype');
 	unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+0D01-0D7F, U+200C-U+200D, U+25CC;
 }
 
@@ -137,7 +137,7 @@
 	font-family: 'Uroob';
 	font-style: normal;
 	font-weight: 700;
-	src: url(https://smc.org.in/downloads/fonts/uroob/Uroob.woff2?v=2.0) format('woff2'), url(https://smc.org.in/downloads/fonts/uroob/Uroob.woff?v=2.0) format('woff'), url(https://smc.org.in/downloads/fonts/uroob/Uroob.ttf?v=2.0) format('truetype');
+	src: url(//smc.org.in/downloads/fonts/uroob/Uroob.woff2?v=2.0) format('woff2'), url(//smc.org.in/downloads/fonts/uroob/Uroob.woff?v=2.0) format('woff'), url(//smc.org.in/downloads/fonts/uroob/Uroob.ttf?v=2.0) format('truetype');
 	unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+0D01-0D7F, U+200C-U+200D, U+25CC;
 }
 
@@ -148,7 +148,7 @@
 	font-family: 'Karumbi';
 	font-style: normal;
 	font-weight: 400;
-	src: url(https://smc.org.in/downloads/fonts/karumbi/Karumbi.woff2?v=1.0) format('woff2'), url(https://smc.org.in/downloads/fonts/karumbi/Karumbi.woff?v=1.0) format('woff'), url(https://smc.org.in/downloads/fonts/karumbi/Karumbi.ttf?v=1.0) format('truetype');
+	src: url(//smc.org.in/downloads/fonts/karumbi/Karumbi.woff2?v=1.0) format('woff2'), url(//smc.org.in/downloads/fonts/karumbi/Karumbi.woff?v=1.0) format('woff'), url(//smc.org.in/downloads/fonts/karumbi/Karumbi.ttf?v=1.0) format('truetype');
 	unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+0D01-0D7F, U+200C-U+200D, U+25CC;
 }
 
@@ -157,7 +157,7 @@
 
 @font-face {
 	font-family: MeeraTamil;
-	src: url(https://smc.org.in/downloads/fonts/meeratamil/MeeraTamil.woff2?v=1.0) format('woff2'), url(https://smc.org.in/downloads/fonts/meeratamil/MeeraTamil.woff?v=1.0) format('woff'), url(https://smc.org.in/downloads/fonts/meeratamil/MeeraTamil.ttf) format('truetype');
+	src: url(//smc.org.in/downloads/fonts/meeratamil/MeeraTamil.woff2?v=1.0) format('woff2'), url(//smc.org.in/downloads/fonts/meeratamil/MeeraTamil.woff?v=1.0) format('woff'), url(//smc.org.in/downloads/fonts/meeratamil/MeeraTamil.ttf) format('truetype');
 	font-weight: normal;
 	font-style: normal;
 }
