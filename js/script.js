@@ -3,7 +3,7 @@ $(document).ready(function(){
 
     function loadpage() {
         var browserLanguage = navigator.language;
-        if(browserLanguage.contains('-'))
+        if(browserLanguage.indexOf('-') !== -1)
         {
             var position = browserLanguage.indexOf('-');
             browserLanguage = browserLanguage.substring(0, position);
