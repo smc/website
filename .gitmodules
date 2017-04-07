@@ -1,0 +1,3 @@
+[submodule "fonts-preview-site"]
+	path = fonts-preview-site
+	url = https://gitlab.com/smc/fonts-preview-site.git
