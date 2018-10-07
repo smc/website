@@ -33,7 +33,7 @@ img {
    Author's custom styles
    ========================================================================== */
 body{
-    font: 400 14px/140% 'Open Sans',Arial,Helvetica,Geneva,sans-serif;
+    font: 400 14px/140% 'Open Sans','Manjari', 'Meera', Arial,Helvetica,Geneva,sans-serif;
     color: #333;
 }
 #title h1{
@@ -158,13 +158,11 @@ ul#social li{
 #social-icon-2{
     background: url(../img/social/twitter.png) bottom;
 }
+
 #social-icon-3{
-    background: url(../img/social/identica.png) bottom;
-}
-#social-icon-4{
     background: url(../img/social/googleplus.png) bottom;
 }
-#social-icon-5{
+#social-icon-4{
     background: url(../img/social/diaspora.png) bottom;
 }
 #social-icon-1:hover, #social-icon-2:hover, #social-icon-3:hover, #social-icon-4:hover, #social-icon-5:hover{
@@ -227,7 +225,7 @@ footer{
     #main-content{
         height: auto;
     }
-    footer{    
+    footer{
         margin-top: 30px;
     }
 
