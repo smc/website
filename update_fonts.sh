@@ -17,7 +17,8 @@ for font in "${fonts[@]}"; do
         rm artifacts.zip
         mv build/* .
         rm -rf build
+        zip -qr "${font}.zip" . -i "*.ttf" -i "*.otf" -i "*.woff" -i "*.woff2" -j
         cd ../ || exit
 done
 
-zip -qr fonts-smc.zip . -i "*.ttf" -j
+zip -qr fonts-smc.zip . -i "*.ttf" -i "*.otf" -i "*.woff" -i "*.woff2" -j
