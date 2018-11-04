@@ -1,7 +1,13 @@
+image: "debian:stable-slim"
+
 variables:
   GIT_SUBMODULE_STRATEGY: recursive
 pages:
+  before_script:
+    - apt-get -y update
+    - apt-get -y install curl jq zip wget unzip
   script:
+  - bash update_fonts.sh
   - mkdir .public
   - cp -r * .public
   - mv .public public
