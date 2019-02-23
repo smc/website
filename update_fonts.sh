@@ -8,7 +8,7 @@ mkdir -p downloads/fonts
 cd downloads/fonts || exit
 fonts=(gayathri anjalioldlipi rachana meera manjari raghumalayalamsans dyuthi keraleeyam uroob chilanka karumbi )
 for font in "${fonts[@]}"; do
-        version=$(curl -sSL "https://gitlab.com/api/v4/projects/${FONTS_SLUG}%2F${font}/repository/tags"| jq '.[].name' | grep -i version | sort -V | tail -1 | tr -d '"')
+        version=$(curl -sSL "https://gitlab.com/api/v4/projects/${FONTS_SLUG}%2F${font}/repository/tags??order_by=updated" | jq '.[].name' | head -1 | tr -d '"')
 
         echo "$font : $version"
         if [ -z "${version}" ]; then
